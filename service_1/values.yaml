@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: mongo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: alpine3.17
+  tag: perl
 
 imagePullSecrets: []
 nameOverride: ""
